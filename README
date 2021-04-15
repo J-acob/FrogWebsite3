@@ -1,0 +1,17 @@
+What is Frog Website 3?
+Frog Website 3 is a site where you can fulfill all of the frog desires ribbiting at your core.
+
+WARNING: Home page has an audio button but it is extremely loud. Would recommend muting unless you are deaf.
+
+HOW TO ACCESS THE PAGE:
+
+PREREQUISITES: Have Node.js and a machine that isn't from 1609
+1) Clone the repository onto your local machine
+2) Open the terminal and navigate to the saved location of the repository
+3) Type the following command in the terminal: 'npm start'
+4) Navigate to 'localhost:####' where #### is the port. 
+5) Site can be navigated through clicking buttons, but all site URLs are as follows:
+   '/'
+   '/frogs'
+   '/frog-facts'
+

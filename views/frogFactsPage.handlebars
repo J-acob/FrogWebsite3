@@ -1,0 +1,21 @@
+<header>
+	<audio controls>
+		<source src="audio/frogland.mp3" type="audio/mp3">
+	</audio>
+</header>
+
+<main class="frog-facts-page">
+	<div class="title-container">
+		<h2>Here are some frogs with accompanying facts.</h2>
+	</div>
+	
+</main>
+<button id = "factsDeepFry" onclick="deepFryFrogFactsClick()">DEEP FRY</button>
+
+<br />
+
+<main class="frog-body-container">
+	{{#each frog}}
+		{{> froggies}}
+	{{/each}}
+</main>

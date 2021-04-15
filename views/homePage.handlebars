@@ -1,0 +1,18 @@
+<header>
+	<audio controls>
+		<source src="audio/flutesalad.mp3" type="audio/mp3">
+	</audio>
+</header>
+<main class="home-page">
+	<div class="title-container">
+		<h2>Welcome to the Website that functions as a frog Database.</h2>
+	</div>
+	<div class="home-container">
+		{{#each photos}}
+			{{>photocard}}
+		{{/each}}
+		<div id = "changeFroggy">
+			<input type = "text" placeholder="Insert Frog Image URL Here" id = "imageURL" onchange="changeFrog()">
+		</div>
+	</div>
+</main>
